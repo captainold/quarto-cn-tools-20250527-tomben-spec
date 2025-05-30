@@ -28,3 +28,6 @@ Backup of *.doc*
 
 # symbolic link of Obsidian configuration
 .obsidian
+
+# 忽略 Windows Zone.Identifier 附加流
+*.Zone.Identifier
