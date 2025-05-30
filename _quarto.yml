@@ -1,4 +1,4 @@
-title: 零碳园区建设方案（测试）
+title: 关于统一规范碳排放核算体系的专报
 # title: 专报模板
 student-id: 1234567890
 supervisor: 导师姓名
@@ -19,8 +19,8 @@ crossref:
   tbl-prefix: 表
 reference-section-title: 参考文献
 bibliography: bibliography.bib
-csl: _styles/gb-author-date.csl  # 作者-年份样式
-# csl: _styles/gb-numeric.csl  # 数字样式
+# csl: _styles/gb-author-date.csl  # 作者-年份样式
+csl: _styles/gb-numeric.csl  # 数字样式
 filters:
   - links-to-citations
   - ignore-softbreaks

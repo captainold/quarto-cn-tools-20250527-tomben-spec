@@ -43,10 +43,13 @@ dependencies:
 	@python _extensions/format-md.py
 
 # `-L _extensions/remove-doi-hyperlinks.lua` can be added to remove DOI hyperlinks
-QUARTO := @quarto render index.qmd --to
+
+
+QUARTO := @quarto render 关于统一规范碳排放核算体系.qmd --to
+# QUARTO := @quarto render index.qmd --to
 FILTERS := -L _extensions/localize-cnbib.lua \
-	-L _extensions/cnbib-quotes.lua \
-	--filter _extensions/sort-cnbib.py
+	-L _extensions/cnbib-quotes.lua
+
 
 # Render DOCX
 docx: dependencies
@@ -79,7 +82,7 @@ watermark: pdf
 # Render EPUB
 epub: dependencies
 	$(QUARTO) $@ -L _extensions/localize-cnbib.lua -L _extensions/cnbib-quotes.lua \
-	--filter _extensions/sort-cnbib.py --filter _extensions/auto-correct.py
+	--filter _extensions/auto-correct.py
 
 # Render Reveal.js slides
 slides: dependencies
