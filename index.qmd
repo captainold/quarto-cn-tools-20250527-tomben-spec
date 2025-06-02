@@ -1,9 +1,15 @@
-<!-- Include Quarto files -->
-<!-- {{< include contents/1零碳园区建设方案.qmd >}}
+Include Quarto files
+{{< include contents/1-零碳园区建设方案.qmd >}}
 {{< include contents/2-localize-cnbib.qmd >}}
 {{< include contents/3-sort-cnbib.qmd >}}
 {{< include contents/4-chinese-quotes.qmd >}}
-{{< include contents/5-pangu-space.qmd >}} -->
+{{< include contents/5-pangu-space.qmd >}}
+
+
+
+
+
+
 
 <!-- 专报模板可以直接写在 `index.qmd` 中，无需使用 `contents` 文件夹 -->
 
@@ -11,7 +17,7 @@
 
 
 
-
+<!--
 标题在 `_quarto.yml` 中设置，模板 `zhuanbao.docx` 中已设置标题居中，字体小二，方正小标宋简体，例如设置为 `title: 零碳园区建设方案(专报模板)`。
 
 零碳园区是指通过设计、技术、管理和商业化等方式，使园区内生产、生活活动所产生的二氧化碳排放降至“近零”水平，具备进一步达到“近零”条件的园区。建立零碳园区是加快能源绿色转型、引导产业深度脱碳、促进区域协调发展、应对绿色贸易壁垒的重要举措，对于如期实现碳达峰碳中和目标意义重大。为贯彻落实党中央、国务院决策部署，建立一批零碳园区，特制定本方案。
@@ -66,7 +72,7 @@
 # 测试一级标题
 
 一至四级标题无需手动编号，使用 Lua filter `header-number.lua` 实现自动编号，支持 1--99 的编号，避免了此前使用 Word 模板的自动编号功能出现的不必要的 tab 键。
->>>>>>> 
+
 
 坚持以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大和二十届二中、三中全会精神，全面贯彻习近平经济思想、习近平生态文明思想，完整准确全面贯彻新发展理念，在一批具备条件的产业园区内率先建立绿色低碳能源供应体系，激发产业转型动能，打造绿色生产生活建筑和绿色交通物流网络，提升碳汇能力，提升管理服务和配套服务能力，力争在园区生产、运营、管理中实现碳排放最小化，催生技术、制度和商业模式创新，在绿色转型中打造新的动力源和增长点，加紧经济社会发展全面绿色转型，助力碳达峰碳中和目标实现。（正文，字体：方正仿宋_GBK，小三，段落间距 1倍，首行缩进2字符。）
 
@@ -85,6 +91,7 @@
 ![这是一张本地图片mid300](figures/cover.png)
 
 ![这是一张网络图片](https://quarto.org/images/demo-jupyter-output.png){width=300}
+
 已经默认居中。
 
 
@@ -156,3 +163,5 @@ In physics, the mass-energy equivalence is stated by the equation $E=mc^2$, disc
 
 2025年5月28日
 :::
+
+-->

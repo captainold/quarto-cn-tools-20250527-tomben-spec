@@ -1,4 +1,4 @@
-# 参考文献本地化
+# 参考文献本地化 0602
 
 Pandoc 使用 CSL（[Citation Style Language](https://citationstyles.org/)）来格式化参考文献信息，
 然而 CSL 不支持多语言的参考文献格式化，例如在 Pandoc 中将语言设置为 `en-US` 时，
